@@ -1,0 +1,22 @@
+{
+  "name": "textlint-boilerplate",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.1.1",
+    "textlint": "^11.7.6",
+    "textlint-rule-preset-ja-spacing": "^2.0.1",
+    "textlint-rule-preset-ja-technical-writing": "^4.0.1",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
+  },
+  "dependencies": {
+    "@textlint-ja/textlint-rule-no-synonyms": "^1.1.0",
+    "husky": "^4.2.5",
+    "sudachi-synonyms-dictionary": "^6.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx textlint --rule @textlint-ja/no-synonyms src/**/*.md"
+    }
+  }
+}

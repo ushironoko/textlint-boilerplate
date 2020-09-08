@@ -1,0 +1,9 @@
+{
+  "filters": {},
+  "rules": {
+    "@textlint-ja/no-synonyms": true,
+    "preset-ja-spacing": true,
+    "preset-ja-technical-writing": true,
+    "spellcheck-tech-word": true
+  }
+}
