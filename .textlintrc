@@ -4,6 +4,7 @@
     "@textlint-ja/no-synonyms": true,
     "preset-ja-spacing": true,
     "preset-ja-technical-writing": true,
-    "spellcheck-tech-word": true
+    "spellcheck-tech-word": true,
+    "ja-spacing/ja-space-between-half-and-full-width": false,
   }
 }
